@@ -13,21 +13,27 @@ Feel free [to submit pull requests](https://yangsu.github.io/pull-request-tutori
 
 # Contents
 - [Building your Technical Profile](#building-your-technical-profile)
+  * [Skills](#skills)
+    + [How to put skills on your resume](#how-to-put-skills-on-your-resume)
   * [Side Projects](#side-projects)
-      + [How to put a side project on a resume](#how-to-put-a-side-project-on-a-resume)
-      + [Make a personal website to showcase your side projects](#make-a-personal-website-to-showcase-your-side-projects)
-      + [How to get started with side projects](#how-to-get-started-with-side-projects)
+    + [Make a personal website to showcase your side projects](#make-a-personal-website-to-showcase-your-side-projects)
+    + [How to get started with side projects](#how-to-get-started-with-side-projects)
+- [Resumes](#resumes)
+  * [Common Mistakes](#common-mistakes)
+  * [General Resume Structure](#general-resume-structure)
+  * [Projects on a Resume](#projects-on-a-resume)
+  * [Skills](#skills-1)
 - [Finding Companies and Applying](#finding-companies-and-applying)
   * [Lists of companies](#lists-of-companies)
   * [Reaching out to people](#reaching-out-to-people)
     + [Taking advantage of where you live.](#taking-advantage-of-where-you-live)
 - [Interviews](#interviews)
-  - [Online code challenges](#online-code-challenges)
-  - [Technical Interviews](#technical-interviews)
-  - [Behavioral Interviews](#behavioral-interviews)
-      + [Tips](#tips)
-  - [Homework Projects](#homework-projects)
-      + [Tips](#tips-1)
+      - [Online code challenges](#online-code-challenges)
+      - [Technical Interviews](#technical-interviews)
+      - [Behavioral Interviews](#behavioral-interviews)
+          + [Tips](#tips)
+      - [Homework Projects](#homework-projects)
+          + [Tips](#tips-1)
   * [Nerves](#nerves)
     + [Dealing with Nerves through Repetition](#dealing-with-nerves-through-repetition)
     + [Dealing with Nerves through Hippie-Dippie Magic](#dealing-with-nerves-through-hippie-dippie-magic)
@@ -38,6 +44,8 @@ Feel free [to submit pull requests](https://yangsu.github.io/pull-request-tutori
       - [Big O](#big-o)
   * [Algorithms and Data Structures](#algorithms-and-data-structures)
 - [Offers](#offers)
+    + [After the interview](#after-the-interview)
+    + [If you hear nothing](#if-you-hear-nothing)
     + [If you didn't get the offer](#if-you-didnt-get-the-offer)
     + [Pay](#pay)
     + [Discussing the offer](#discussing-the-offer)
@@ -59,31 +67,33 @@ Each of these generally have their own section on a resume, typically as:
 - Projects Section
 - Education Section
 
-**Side note**: If you have a GPA lower than 3.0, don't put it on your resume. If they ask about it, don't lie. Many companies don't care about your GPA and it frequently does not mean you are a poor engineer.
+**Side note**: If you have a GPA lower than 3.0, don't put it on your resume. If they ask about it, don't lie. Many companies don't care about your GPA and it does not mean you are a poor engineer.
+
+## Skills
+
+
+Generally, you want to provide a list of skills to allow the resume reviewer to quickly identify if you're a good fit for the job.
+
+### How to put skills on your resume
+
+There are many ways to do this, however the most common is to provide a breakdown based on the above categories.
+
+For example:
+```
+- Languages:
+- Libraries & Frameworks:
+- Tools:
+```
+You may also choose to specify competency, either by listing in order of familiarity, or by listing grouped by level of proficiency
+
+**Tips**
+- Don't include irrelevant or generic skills like Microsoft Office Suite, it dilutes the section
+- Tailor this section based on the job posting. If they ask for a specific framework, make sure you include it here (if you've used it!)
 
 ## Side Projects
 
-For many people, classes alone are probably not enough to get the type of job you want. Having experience through side projects or jobs shows initiative and lets employers know that you can learn on your own.
 
-### How to put a side project on a resume
-
-If you have room, it's common to put side projects under a "projects" section in your resume. Include:
-1. The language and libraries you used.
-2. Some metric to show the size of the project (time taken to complete, user statistics, lines of code, ect)
-3. When the project was created.
-4. A short description of the project.
-
-An example side project on a resume might look like:
-
-```
-# Projects
-
-## Doohicky.io [Summer, 2016]
-- Combines foo with bar whenever a user clicks a button.
-- Built with Node.js and React.
-- Hosted on AWS.
-- 5,000 daily active users
-```
+For many people, classes alone are probably not enough to get the type of job you want. Having experience through side projects shows initiative and lets employers know that you can learn on your own.
 
 ### Make a personal website to showcase your side projects
 
@@ -104,7 +114,61 @@ For most, this generally comes down to finding something you're interested in an
 1. Get a team. Other people will keep you motivated as long as you keep them motivated. It basically creates social pressure to continue.
 2. Build a game, an app, or a web app. There are sooooooooo many tutorials, docs and libraries in almost every language for these, so it's crazy easy to get into.
 3. Find a tutorial to simply get something on your screen.
-4. Set a very small goal for yourself, for example: "Move a block on the screen with the arrow keys", or "connect to a database".
+4. Set a very small goal for yourself, for example: "Move a block on the screen with the arrow keys", or "connect to a database". From here, you can incrementally build out a larger project, but small goals make it achievable.
+
+---
+
+# Resumes
+
+In general, your career center can help you write a resume. It's advised to seek advice from them first. This section will instead try to focus on specifics of applying for software jobs.
+
+## Common Mistakes
+1. Don't use PDF. Some companies will scan your resume for keywords or just to fill out their own forms. PDFs will make it more difficult to apply for a job online and makes it more likely you will get weeded out by a keyword-searcher.
+2. Single page. 1 page. Please, seriously. 1 page.
+3. You don't need an objective, personal statement, or self-summary.
+
+## General Resume Structure
+
+```
+- Name, email, phone
+- Education
+- Projects/Experience
+- Skills
+```
+
+## Projects on a Resume
+Put a project or two on your resume. If you don't have personal projects, put the biggest class project you have. Make sure it's clear that it's a class project, but having something is better than nothing.
+
+Include:
+1. The language and libraries you used.
+2. Some metric to show the size of the project (time taken to complete, user statistics, lines of code, ect)
+3. When the project was created.
+4. A short description of the project.
+
+An example side project on a resume might look like:
+
+```
+# Projects
+
+## Doohicky.io [Summer, 2016]
+- Combines foo with bar whenever a user clicks a button.
+- Built with Node.js and React.
+- Hosted on AWS.
+- 5,000 daily active users
+```
+
+## Skills
+In general you want to include three items in this section:
+
+- Programming Languages (Ex: Java, C++, Python)
+- Libraries and Frameworks (Ex: React, Django, Spark)
+- Tools and Misc Systems (Ex: git, vagrant, bash, docker)
+
+Hard skills are better than soft skills. You probably don't need to put "teamwork" or "communication" on your resume.
+
+## Misc
+- [Making your resume look good](http://www.lifeclever.com/give-your-resume-a-face-lift/) 
+- [Career Cup resume tips](https://www.careercup.com/resume)
 
 ---
 
@@ -113,8 +177,8 @@ For most, this generally comes down to finding something you're interested in an
 Once you have built up your profile, you need to start applying for companies. If you go to a school that has little to no connections and has a minimal career fair, **you need to start applying to companies yourself.**
 
 **General tips**
-- APPLY EARLY. Apply in August and September if you can. Start searching for companies day 1 of school. Internships and new grad positions can go real quick.
-- There are tons of good internship finders online. Some of the best are Linkedin, Internship.com, Indeed.com, Glassdoor.
+- APPLY EARLY. Apply in August and September if you can. Start searching for companies day 1 of school. Internships and new grad positions can fill really quick.
+- There are tons of good internship search sites online. Some of the best are Linkedin, Internship.com, Indeed.com, Glassdoor.
 - Apply for a large list of companies. Over 30. Do not set your sights on one company. Internships are competitive and it's not uncommon to send out 30 applications and only hear back from 1. This doesn't mean you're a bad dev, it can mean they've been hit with literally thousands of applications and can't easily sort through them.
 - Apply for companies even if you don't have everything. Very few people generally do. And it can't hurt.
 - Expand your radius. Don't apply to companies only in your home town. Even if you think you would never want to go to Boston or whatever, having another offer can vastly increase your ability to negotiate and you may end up getting a really good deal.
@@ -129,10 +193,13 @@ Once you have built up your profile, you need to start applying for companies. I
 - [Breakoutlist](https://breakoutlist.com) has a list of companies that are currently experiencing large growth (and therefor will probably have more positions open)
 - [Worried about whiteboarding? Checkout this list of companies that hire without whiteboards](https://github.com/poteto/hiring-without-whiteboards)
 - [Wealthfront's 2017 Career-launching Companies](https://blog.wealthfront.com/2017-career-launching-companies-list/)
+- [The Really Big Hugely Ginormous Tech Company List](https://docs.google.com/spreadsheets/d/1QOYYS_1fN7eO8rTBHYLv1tQ1dMPeqgIKbIE6CP-yFzg/edit#gid=1368926779) (Note, often has outdated data.) 
+- [Companies that have easy applications](https://github.com/j-delaney/easy-application) 
+- [Find companies by your values](https://www.keyvalues.io/) 
 
 ## Reaching out to people
 
-You can always reach out to people at certain companies. Don't got connections? Does GU not provide any help for 99.9% of the companies you're interested in?
+You can always reach out to people at certain companies. Don't have connections? Does GU not provide any help for 99.9% of the companies you're interested in?
 
 Find people on LinkedIn. Make sure that you're looking for a University Recruiter if you're looking at a big company. Want to contact a university recruiter at XYZ Company?
 
@@ -166,15 +233,20 @@ The career center should be able to give you lots of advice on behavioral interv
 However, the vast majority of your interview experience will be code challenges and technical interviews.
 
 #### Online code challenges
-These are typically timed algorithm and data structure challenges.
+
+These are typically timed algorithm and data structure challenges. They are generally conducted through an online portal.
 
 #### Technical Interviews
 These can be short interviews with an engineer or day-long interviews on campus.
 They can cover a variety of topics, but are often very similar to the online-code challenges.
 
 Tips for in-person technical interviews:
+* Start by running through a small example to make sure you and the interviewer are on the same page
+* Interviewers will not always tell you all of the information, they want to see you be able to ask questions and dive deeper into requirement gathering
 * Start simple: start with the brute force solution and then move on to more optimized solutions. It buys you time and ensures that you got at least something right.
 * Narrate your thought process: explain what you are thinking and why you are making the choices you are making. It will make you seem thoughtful and thorough and fills the awkward silence gaps.
+* Ask for help: If you don't know something, or are deciding between a couple implementations, talk through your reasoning and discuss it with your interviewer.
+* Admit knowledge gaps: Don't try to bluster your way through, if you don't remember the syntax or semantics for XYZ let your interviewer know, brush it off, and keep going from there.
 
 #### Behavioral Interviews
 These are usually 30 min to an hour with an HR person.
@@ -187,6 +259,7 @@ A nice general format to answer these questions is like such:
 ###### Tips
 * Develop a repitoire of go-to stories or experiences that reflect positively on what you have to offer. In the moment it will be hard to think of a good story.
 * Don't tell the same story for multiple questions or it will seem that you have only one good experience. Diversity shows you are experienced.
+* Use the [STAR method](https://careerservices.wayne.edu/behavioralinterviewinfo.pdf) to smoothly and completely answer.
 
 It's important to practice. Look up "20 common interview questions" on Google. Practice with a friend. Work on being concise, clear, and poised.  
 
@@ -198,6 +271,7 @@ Some companies might give you a small project to do in order to prove your abili
 * Make sure you have enough time. If they give you a week to finish the project, but you have 3 tests in the next few days, share this with them. Most companies can move the schedule around a bit and let you start later or give you more time overall.
 * Use git. Using git is the standard in industry and storing your project on github looks way more professional than sending them a zip file.
 * Do what you know. If you had to learn something new for your project, make your interviewer aware of this. If you're project is a B- project, that looks pretty bad if you claim to know the library and language you're using well. However, if you didn't know it and learned enough to do a B- project, then that can look good for you!
+* Don't get taken advantage of! If it looks like you're implementing real functionality for them, be wary. If they ask you to spend more than a few hours, unless you're desperate, move along.
 
 ## Nerves
 
@@ -259,7 +333,13 @@ challenge. You can practice these through a number of websites, but here are our
 1. [Hackerrank](https://www.hackerrank.com/)
 2. [Leetcode](https://leetcode.com/)
 3. [Codewars](https://www.codewars.com/)
-4. [Firecode.io](https://www.firecode.io/) 
+4. [Firecode.io](https://www.firecode.io/)
+
+Tips
+* If you are struggling with a problem don't jump right to the solution, let it linger in your mind for a day and come back.
+* Once you are getting more confident trying writing solutions out on a whiteboard to get used to what it will be like in an interview.
+* When you are able to solve most questions start doing them on the whiteboard but also talking outloud. You will get used to speaking what you are thinking as you are writing code.
+* After compelting a problem do not go and attempt the next version of that same problem, it is better to appraoch problems without having just done something extremely similiar.
 
 ## CS Concepts
 Outside of algorithms and data structures, there are certain CS concepts that
@@ -287,13 +367,33 @@ Big O is the efficiency of an algorithm.
 
 If all goes well, a company will eventually send you an offer. This section is about what's normal, what's not, and advice about handling offers.
 
+### After the interview
+Within 24 hours, send a thank you email to your interviewer(s) and/or recruiter. Thank them for their time and attention, mention something specific from the interview (i.e "I really enjoyed our discussion of XYZ" or "After speaking with you, I've been spending some time looking into uses of XYZ"), and offer up additional information ("Please feel free to reach out if there is anything else you need from me").
+
+**Tips**
+- This is where you can ask about timeline, if you haven't already. Simply include a line such as "When can I expect to hear back from you with regards to XYZ?"
+
+### If you hear nothing
+If you haven't hear within the timeframe they advised, or at most within a week, send a quick follow-up email. A simple example would be:
+```
+Dear X,
+
+Thank you again for taking the time to speak with me {on X date}.
+When we last spoke, you mentioned I should expect to hear back {within Y timeframe}.
+Do you have any update for me, or is there anything additional you need from me?
+
+Thanks again,
+{Name}
+```
+
 ### If you didn't get the offer
 If you got rejected by a company you were really invested in, don't worry.
 - **Be polite to the company.** Do not burn bridges, do not question their decision, move on for now.
 - If you applied for multiple positions, some companies might reject you for one position and accept you for another.
-- You can always reapply. Many Googler's applied several times before they got an offer.
+- You can always reapply. Many Googler's applied several times before they got an offer. Ask your recruiter when a good time to reapply would be, some companies have 6,9 or 12 month policies. Depending on how far into the process you got some will advance you right back to the last stage you were at.
 - Rejections often happen due to bad luck. Maybe they already found enough qualified people. Maybe the recruiter was looking for a super specific library. Maybe you got filtered out by a keyword checker. Maybe they ran out of money and the position disappeared! It's not always you.
 - That said, turn this event into a positive. **Go apply to three more companies every time you get rejected.** This will give you more experience and will increase your chances over the long run.
+
 
 ### Pay
 Software internships are paid. Often, they are paid much more than other jobs. How much you get paid is highly region dependent, but in general, larger cities pay more (but are also more expensive to live in). Some of the larger household name companies can pay around 45$/hour. However, a small company in a small city might pay around 12$/hour.
@@ -301,6 +401,27 @@ Software internships are paid. Often, they are paid much more than other jobs. H
 - Check [Glassdoor](https://www.glassdoor.com/index.htm) to find previous salaries.
 - Ask around to see what other companies are paying.
 - If you don't know what a specific company is paying, you can use a similar sized company in the same area as an estimate.
+- If you want to negotioate (generally always worth a shot, could be leaving several thousand dollars on the table), ask to set up a call with your recruiter. If you negotiate politely, it is highly unlikely that a company will choose to pull the offer. If they do, than that is often a sign of how the HR department at that company operates.
+- Tips for negotiating
+  - Talk about what skills and qualifications you have that you think qualify you for an increase in compensation.
+  - If you have other offers you can use those to get an increase in compensation.
+  - There is more than just salary to negotiate:
+    - Signing bonus
+    - Moving bonus
+    - Stock/vesting schedule
+    - Vacation days
+  - Be polite, avoid words that make you seem demanding or ungrateful.
+  - If you are uncomfortable with doing this over the phone, try drafting an email like the one below.
+
+```
+Dear X,
+
+I want to again express my thanks for extending me an offer. I believe that I can bring {skills A, B, and C} to {Company Z}.
+I feel that my skills are valued at {propose increase in salary, stock, signing bonus, vesting schedule, PTO}
+
+Thanks again,
+{Name}
+```
 
 ### Discussing the offer
 Do not immediately accept offers. Always do research on the salary offered, benefits, location and company.
@@ -308,6 +429,6 @@ Do not immediately accept offers. Always do research on the salary offered, bene
 - For interns, always ask how the company handles taxes for employees. **Many companies will set you up as a contractor**, which won't give you a regular W2 during tax season. This means you will end up paying more taxes than a regular employee, which effectively lowers your overall wage. This isn't always a bad thing, but it's something to consider.
 
 ### What's normal and what's not
-- According to NACE, the National Association of Colleges and Employers, companies should always give you at least 2 weeks to decide on an offer. In certain situations, it is feasible for them to give you several months. See the [NACE guidelines here.](http://www.naceweb.org/career-development/organizational-structure/reasonable-offer-deadlines-guidelines/). Don't be afraid to ask for more time if you need it. Very few companies are in desperate need of an intern right _now_.
+- According to NACE, the National Association of Colleges and Employers, companies should always give you at least 2 weeks to decide on an offer. In certain situations, it is feasible for them to give you several months. See the [NACE guidelines here](http://www.naceweb.org/career-development/organizational-structure/reasonable-offer-deadlines-guidelines/). Don't be afraid to ask for more time if you need it. Very few companies are in desperate need of an intern right _now_.
 - **Software internships are almost always paid.** Be VERY cautious about any company that offers you a job that is unpaid.
 - In general, it's probably not a good idea to take equity instead of payment, especially if you're looking for an internship. Very few great companies start off with intern labor.
